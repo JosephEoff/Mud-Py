@@ -28,7 +28,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'zones.apps.ZonesConfig',
+    'controlnode.apps.ControlNodeConfig',
+    'zone.apps.ZoneConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

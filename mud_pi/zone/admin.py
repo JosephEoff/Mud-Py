@@ -1,8 +1,8 @@
 from django.contrib.gis import admin
-from .models import Zones
+from .models import Zone
 from leaflet.admin import LeafletGeoAdmin
 
-class ZonesAdmin(admin.OSMGeoAdmin): #LeafletGeoAdmin): #admin.OSMGeoAdmin):
+class ZoneAdmin(admin.OSMGeoAdmin): #LeafletGeoAdmin): #admin.OSMGeoAdmin):
      map_info = True
      map_width = 800
      map_height = 600
@@ -15,4 +15,4 @@ class ZonesAdmin(admin.OSMGeoAdmin): #LeafletGeoAdmin): #admin.OSMGeoAdmin):
 
 
 #admin.site.register(Zones, ZonesAdmin)
-admin.site.register(Zones, LeafletGeoAdmin)
+admin.site.register(Zone, LeafletGeoAdmin)
