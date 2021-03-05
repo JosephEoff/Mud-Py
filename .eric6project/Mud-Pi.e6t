@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project Mud-Pi -->
+<!-- Saved: 2021-03-05, 19:15:11 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="2" uid="{818cb1dd-a7bc-4c4a-84eb-6244257dcb21}">
+    <Summary>WARNING: keep the secret key used in production secret!</Summary>
+    <Description></Description>
+    <Created>2021-03-05, 19:03:11</Created>
+    <Resource>
+      <Filename>mud_pi/mud_pi/local_settings.py</Filename>
+      <Linenumber>2</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{bbdadf69-1d16-459d-b554-69a9ed5a04b6}">
+    <Summary>WARNING: don't run with debug turned on in production!</Summary>
+    <Description></Description>
+    <Created>2021-03-05, 19:15:08</Created>
+    <Resource>
+      <Filename>mud_pi/mud_pi/settings.py</Filename>
+      <Linenumber>22</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>

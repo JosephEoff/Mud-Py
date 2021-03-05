@@ -28,6 +28,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'sensor.apps.SensorConfig',
     'controlnode.apps.ControlNodeConfig',
     'zone.apps.ZoneConfig',
     'django.contrib.admin',

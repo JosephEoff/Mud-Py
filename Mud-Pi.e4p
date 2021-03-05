@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric project file for project Mud-Pi -->
+<!-- Saved: 2021-03-05, 19:01:55 -->
+<!-- Copyright (C) 2021 ,  -->
+<Project version="5.1">
+  <Language>en_US</Language>
+  <Hash>d410693ee1d036748021047b70f23b7d92f73b52</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>Django</ProjectType>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <TranslationPattern>mud_pi/locale/%language%/LC_MESSAGES/django.po</TranslationPattern>
+  <Eol index="0"/>
+  <Sources>
+    <Source>mud_pi/controlnode/__init__.py</Source>
+    <Source>mud_pi/controlnode/admin.py</Source>
+    <Source>mud_pi/controlnode/apps.py</Source>
+    <Source>mud_pi/controlnode/migrations/0001_initial.py</Source>
+    <Source>mud_pi/controlnode/migrations/__init__.py</Source>
+    <Source>mud_pi/controlnode/models.py</Source>
+    <Source>mud_pi/controlnode/tests.py</Source>
+    <Source>mud_pi/controlnode/urls.py</Source>
+    <Source>mud_pi/controlnode/views.py</Source>
+    <Source>mud_pi/manage.py</Source>
+    <Source>mud_pi/mud_pi/asgi.py</Source>
+    <Source>mud_pi/mud_pi/local_settings.py</Source>
+    <Source>mud_pi/mud_pi/settings.py</Source>
+    <Source>mud_pi/mud_pi/urls.py</Source>
+    <Source>mud_pi/mud_pi/wsgi.py</Source>
+    <Source>mud_pi/nodedata/__init__.py</Source>
+    <Source>mud_pi/nodedata/admin.py</Source>
+    <Source>mud_pi/nodedata/apps.py</Source>
+    <Source>mud_pi/nodedata/migrations/__init__.py</Source>
+    <Source>mud_pi/nodedata/models.py</Source>
+    <Source>mud_pi/nodedata/tests.py</Source>
+    <Source>mud_pi/nodedata/views.py</Source>
+    <Source>mud_pi/nodedatatype/__init__.py</Source>
+    <Source>mud_pi/nodedatatype/admin.py</Source>
+    <Source>mud_pi/nodedatatype/apps.py</Source>
+    <Source>mud_pi/nodedatatype/migrations/__init__.py</Source>
+    <Source>mud_pi/nodedatatype/models.py</Source>
+    <Source>mud_pi/nodedatatype/tests.py</Source>
+    <Source>mud_pi/nodedatatype/views.py</Source>
+    <Source>mud_pi/sensor/__init__.py</Source>
+    <Source>mud_pi/sensor/admin.py</Source>
+    <Source>mud_pi/sensor/apps.py</Source>
+    <Source>mud_pi/sensor/migrations/__init__.py</Source>
+    <Source>mud_pi/sensor/models.py</Source>
+    <Source>mud_pi/sensor/tests.py</Source>
+    <Source>mud_pi/sensor/views.py</Source>
+    <Source>mud_pi/sensordata/__init__.py</Source>
+    <Source>mud_pi/sensordata/admin.py</Source>
+    <Source>mud_pi/sensordata/apps.py</Source>
+    <Source>mud_pi/sensordata/models.py</Source>
+    <Source>mud_pi/sensordata/tests.py</Source>
+    <Source>mud_pi/sensordata/views.py</Source>
+    <Source>mud_pi/sensordatatype/__init__.py</Source>
+    <Source>mud_pi/sensordatatype/admin.py</Source>
+    <Source>mud_pi/sensordatatype/apps.py</Source>
+    <Source>mud_pi/sensordatatype/migrations/__init__.py</Source>
+    <Source>mud_pi/sensordatatype/models.py</Source>
+    <Source>mud_pi/sensordatatype/tests.py</Source>
+    <Source>mud_pi/sensordatatype/views.py</Source>
+    <Source>mud_pi/zone/__init__.py</Source>
+    <Source>mud_pi/zone/admin.py</Source>
+    <Source>mud_pi/zone/apps.py</Source>
+    <Source>mud_pi/zone/migrations/0001_initial.py</Source>
+    <Source>mud_pi/zone/migrations/__init__.py</Source>
+    <Source>mud_pi/zone/models.py</Source>
+    <Source>mud_pi/zone/tests.py</Source>
+    <Source>mud_pi/zone/urls.py</Source>
+    <Source>mud_pi/zone/views.py</Source>
+  </Sources>
+  <Others>
+    <Other>README.md</Other>
+  </Others>
+  <Vcs>
+    <VcsType>Git</VcsType>
+    <VcsOptions>
+      <dict>
+        <key>
+          <string>add</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>checkout</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>commit</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>diff</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>export</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>global</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>history</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>log</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>remove</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>status</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>tag</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+        <key>
+          <string>update</string>
+        </key>
+        <value>
+          <list>
+            <string></string>
+          </list>
+        </value>
+      </dict>
+    </VcsOptions>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.e4p" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.htm" type="FORMS"/>
+    <FiletypeAssociation pattern="*.html" type="FORMS"/>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.js" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.md" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.mo" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.po" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.pot" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.proto" type="PROTOCOLS"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.rst" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.txt" type="OTHERS"/>
+    <FiletypeAssociation pattern="GNUmakefile" type="OTHERS"/>
+    <FiletypeAssociation pattern="Makefile" type="OTHERS"/>
+    <FiletypeAssociation pattern="README" type="OTHERS"/>
+    <FiletypeAssociation pattern="README.*" type="OTHERS"/>
+    <FiletypeAssociation pattern="makefile" type="OTHERS"/>
+  </FiletypeAssociations>
+</Project>

@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
-
-class SensorsConfig(AppConfig):
-    name = 'sensors'
+class SensorConfig(AppConfig):
+    name = 'sensor'
+    verbose_name = 'Sensor'
