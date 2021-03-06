@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
 <!-- eric6 tasks file for project Mud-Pi -->
-<!-- Saved: 2021-03-05, 19:15:11 -->
+<!-- Saved: 2021-03-06, 00:43:27 -->
 <Tasks version="6.0">
   <ProjectScanFilter></ProjectScanFilter>
   <Task priority="1" completed="False" type="2" uid="{818cb1dd-a7bc-4c4a-84eb-6244257dcb21}">
@@ -13,10 +13,10 @@
       <Linenumber>2</Linenumber>
     </Resource>
   </Task>
-  <Task priority="1" completed="False" type="2" uid="{bbdadf69-1d16-459d-b554-69a9ed5a04b6}">
+  <Task priority="1" completed="False" type="2" uid="{40c031db-fe7c-4382-bb47-9f399b388403}">
     <Summary>WARNING: don't run with debug turned on in production!</Summary>
     <Description></Description>
-    <Created>2021-03-05, 19:15:08</Created>
+    <Created>2021-03-06, 00:43:23</Created>
     <Resource>
       <Filename>mud_pi/mud_pi/settings.py</Filename>
       <Linenumber>22</Linenumber>

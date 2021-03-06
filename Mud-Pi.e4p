@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project Mud-Pi -->
-<!-- Saved: 2021-03-05, 19:01:55 -->
+<!-- Saved: 2021-03-06, 00:43:27 -->
 <!-- Copyright (C) 2021 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
@@ -29,20 +29,6 @@
     <Source>mud_pi/mud_pi/settings.py</Source>
     <Source>mud_pi/mud_pi/urls.py</Source>
     <Source>mud_pi/mud_pi/wsgi.py</Source>
-    <Source>mud_pi/nodedata/__init__.py</Source>
-    <Source>mud_pi/nodedata/admin.py</Source>
-    <Source>mud_pi/nodedata/apps.py</Source>
-    <Source>mud_pi/nodedata/migrations/__init__.py</Source>
-    <Source>mud_pi/nodedata/models.py</Source>
-    <Source>mud_pi/nodedata/tests.py</Source>
-    <Source>mud_pi/nodedata/views.py</Source>
-    <Source>mud_pi/nodedatatype/__init__.py</Source>
-    <Source>mud_pi/nodedatatype/admin.py</Source>
-    <Source>mud_pi/nodedatatype/apps.py</Source>
-    <Source>mud_pi/nodedatatype/migrations/__init__.py</Source>
-    <Source>mud_pi/nodedatatype/models.py</Source>
-    <Source>mud_pi/nodedatatype/tests.py</Source>
-    <Source>mud_pi/nodedatatype/views.py</Source>
     <Source>mud_pi/sensor/__init__.py</Source>
     <Source>mud_pi/sensor/admin.py</Source>
     <Source>mud_pi/sensor/apps.py</Source>
@@ -50,19 +36,6 @@
     <Source>mud_pi/sensor/models.py</Source>
     <Source>mud_pi/sensor/tests.py</Source>
     <Source>mud_pi/sensor/views.py</Source>
-    <Source>mud_pi/sensordata/__init__.py</Source>
-    <Source>mud_pi/sensordata/admin.py</Source>
-    <Source>mud_pi/sensordata/apps.py</Source>
-    <Source>mud_pi/sensordata/models.py</Source>
-    <Source>mud_pi/sensordata/tests.py</Source>
-    <Source>mud_pi/sensordata/views.py</Source>
-    <Source>mud_pi/sensordatatype/__init__.py</Source>
-    <Source>mud_pi/sensordatatype/admin.py</Source>
-    <Source>mud_pi/sensordatatype/apps.py</Source>
-    <Source>mud_pi/sensordatatype/migrations/__init__.py</Source>
-    <Source>mud_pi/sensordatatype/models.py</Source>
-    <Source>mud_pi/sensordatatype/tests.py</Source>
-    <Source>mud_pi/sensordatatype/views.py</Source>
     <Source>mud_pi/zone/__init__.py</Source>
     <Source>mud_pi/zone/admin.py</Source>
     <Source>mud_pi/zone/apps.py</Source>
