@@ -1,2 +1,2 @@
-# Mud-Pi
+# Mud-Py
 A Django based program to collect soil moisture data

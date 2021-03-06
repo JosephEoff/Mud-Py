@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
-<!-- eric project file for project Mud-Pi -->
+<!-- eric project file for project Mud-Py -->
 <!-- Saved: 2021-03-06, 00:43:27 -->
 <!-- Copyright (C) 2021 ,  -->
 <Project version="5.1">
@@ -11,40 +11,40 @@
   <Version>0.1</Version>
   <Author></Author>
   <Email></Email>
-  <TranslationPattern>mud_pi/locale/%language%/LC_MESSAGES/django.po</TranslationPattern>
+  <TranslationPattern>mud_py/locale/%language%/LC_MESSAGES/django.po</TranslationPattern>
   <Eol index="0"/>
   <Sources>
-    <Source>mud_pi/controlnode/__init__.py</Source>
-    <Source>mud_pi/controlnode/admin.py</Source>
-    <Source>mud_pi/controlnode/apps.py</Source>
-    <Source>mud_pi/controlnode/migrations/0001_initial.py</Source>
-    <Source>mud_pi/controlnode/migrations/__init__.py</Source>
-    <Source>mud_pi/controlnode/models.py</Source>
-    <Source>mud_pi/controlnode/tests.py</Source>
-    <Source>mud_pi/controlnode/urls.py</Source>
-    <Source>mud_pi/controlnode/views.py</Source>
-    <Source>mud_pi/manage.py</Source>
-    <Source>mud_pi/mud_pi/asgi.py</Source>
-    <Source>mud_pi/mud_pi/local_settings.py</Source>
-    <Source>mud_pi/mud_pi/settings.py</Source>
-    <Source>mud_pi/mud_pi/urls.py</Source>
-    <Source>mud_pi/mud_pi/wsgi.py</Source>
-    <Source>mud_pi/sensor/__init__.py</Source>
-    <Source>mud_pi/sensor/admin.py</Source>
-    <Source>mud_pi/sensor/apps.py</Source>
-    <Source>mud_pi/sensor/migrations/__init__.py</Source>
-    <Source>mud_pi/sensor/models.py</Source>
-    <Source>mud_pi/sensor/tests.py</Source>
-    <Source>mud_pi/sensor/views.py</Source>
-    <Source>mud_pi/zone/__init__.py</Source>
-    <Source>mud_pi/zone/admin.py</Source>
-    <Source>mud_pi/zone/apps.py</Source>
-    <Source>mud_pi/zone/migrations/0001_initial.py</Source>
-    <Source>mud_pi/zone/migrations/__init__.py</Source>
-    <Source>mud_pi/zone/models.py</Source>
-    <Source>mud_pi/zone/tests.py</Source>
-    <Source>mud_pi/zone/urls.py</Source>
-    <Source>mud_pi/zone/views.py</Source>
+    <Source>mud_py/controlnode/__init__.py</Source>
+    <Source>mud_py/controlnode/admin.py</Source>
+    <Source>mud_py/controlnode/apps.py</Source>
+    <Source>mud_py/controlnode/migrations/0001_initial.py</Source>
+    <Source>mud_py/controlnode/migrations/__init__.py</Source>
+    <Source>mud_py/controlnode/models.py</Source>
+    <Source>mud_py/controlnode/tests.py</Source>
+    <Source>mud_py/controlnode/urls.py</Source>
+    <Source>mud_py/controlnode/views.py</Source>
+    <Source>mud_py/manage.py</Source>
+    <Source>mud_py/mud_py/asgi.py</Source>
+    <Source>mud_py/mud_py/local_settings.py</Source>
+    <Source>mud_py/mud_py/settings.py</Source>
+    <Source>mud_py/mud_py/urls.py</Source>
+    <Source>mud_py/mud_py/wsgi.py</Source>
+    <Source>mud_py/sensor/__init__.py</Source>
+    <Source>mud_py/sensor/admin.py</Source>
+    <Source>mud_py/sensor/apps.py</Source>
+    <Source>mud_py/sensor/migrations/__init__.py</Source>
+    <Source>mud_py/sensor/models.py</Source>
+    <Source>mud_py/sensor/tests.py</Source>
+    <Source>mud_py/sensor/views.py</Source>
+    <Source>mud_py/zone/__init__.py</Source>
+    <Source>mud_py/zone/admin.py</Source>
+    <Source>mud_py/zone/apps.py</Source>
+    <Source>mud_py/zone/migrations/0001_initial.py</Source>
+    <Source>mud_py/zone/migrations/__init__.py</Source>
+    <Source>mud_py/zone/models.py</Source>
+    <Source>mud_py/zone/tests.py</Source>
+    <Source>mud_py/zone/urls.py</Source>
+    <Source>mud_py/zone/views.py</Source>
   </Sources>
   <Others>
     <Other>README.md</Other>

@@ -16,9 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
-admin.site.site_header = 'Mud-Pi'                    # default: "Django Administration"
-admin.site.index_title = 'Mud-Pi administration'                 # default: "Site administration"
-admin.site.site_title = 'Mud-Pi administration' # default: "Django site admin"
+admin.site.site_header = 'Mud-Py'                    # default: "Django Administration"
+admin.site.index_title = 'Mud-Py administration'                 # default: "Site administration"
+admin.site.site_title = 'Mud-Py administration' # default: "Django site admin"
 
 urlpatterns = [
     path('controlnode/', include('controlnode.urls')),
