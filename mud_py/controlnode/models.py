@@ -3,12 +3,21 @@ from django.contrib.gis.db import models
 class ControlNode(models.Model):
     name = models.CharField(max_length = 100)
     description = models.TextField(blank=True)
-    zone = models.ForeignKey('zone.Zone',  on_delete=models.CASCADE, default=None, blank=True, null=True )
+ 
     location = models.PointField(default=None, blank=True, null=True)
     
     def __str__(self):
         return self.name
-        
+    
+class Note(models.Model):
+    title = models.CharField(max_length = 100)
+    text = models.TextField()
+    controlnode = models.ForeignKey('controlnode.ControlNode',  on_delete=models.CASCADE, default=None, blank=True, null=True )
+    timestamp = models.DateTimeField()
+    
+    def __str__(self):
+        return self.title
+
 class ControlNodeUnit(models.Model):
     name = models.CharField(max_length = 50)
     abbreviatedName = models.CharField(max_length = 5)

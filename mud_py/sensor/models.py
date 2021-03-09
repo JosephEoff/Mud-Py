@@ -3,10 +3,21 @@ from django.contrib.gis.db import models
 class Sensor(models.Model):
     sensorID = models.CharField(max_length = 100)
     controlnode = models.ForeignKey('controlnode.ControlNode',  on_delete=models.CASCADE,  default=None, blank=True, null=True)
+    zone = models.ForeignKey('zone.Zone',  on_delete=models.CASCADE, default=None, blank=True, null=True )
     location = models.PointField(default=None, blank=True, null=True)
     
     def __str__(self):
         return self.sensorID
+
+class Note(models.Model):
+    title = models.CharField(max_length = 100)
+    title = models.CharField(max_length = 100)
+    text = models.TextField()
+    timestamp = models.DateTimeField()
+    sensor = models.ForeignKey('sensor.Sensor',  on_delete=models.CASCADE, default=None, blank=True, null=True )
+    
+    def __str__(self):
+        return self.title
 
 class SensorDataUnit(models.Model):
     name = models.CharField(max_length = 50)
