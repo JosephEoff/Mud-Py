@@ -2,7 +2,7 @@ from django.contrib.gis.db import models
 
 class Sensor(models.Model):
     sensorID = models.CharField(max_length = 100)
-    controlnode = models.ForeignKey('controlnode.ControlNode',  on_delete=models.CASCADE,  default=None, blank=True, null=True)
+    controlnode = models.ForeignKey('controlnode.ControlNode',  related_name='assignedsensors',  on_delete=models.CASCADE,  default=None, blank=True, null=True)
     zone = models.ForeignKey('zone.Zone',  on_delete=models.CASCADE, default=None, blank=True, null=True )
     location = models.PointField(default=None, blank=True, null=True)
     
