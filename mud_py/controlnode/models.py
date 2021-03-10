@@ -1,13 +1,12 @@
 from django.contrib.gis.db import models
 
 class ControlNode(models.Model):
-    name = models.CharField(max_length = 100)
-    description = models.TextField(blank=True)
- 
+    nodeid = models.CharField(max_length = 100)
+    description = models.TextField(blank=True) 
     location = models.PointField(default=None, blank=True, null=True)
     
     def __str__(self):
-        return self.name
+        return self.nodeid
     
 class Note(models.Model):
     title = models.CharField(max_length = 100)
@@ -25,7 +24,7 @@ class ControlNodeUnit(models.Model):
     def __str__(self):
         return self.name
         
-class ControlNodeType(models.Model):
+class ControlNodeDataType(models.Model):
     typeName = models.CharField(max_length = 50)
     unit = models.ForeignKey(ControlNodeUnit,  on_delete=models.CASCADE)
     
@@ -35,7 +34,7 @@ class ControlNodeType(models.Model):
 class ControlNodeData(models.Model):
     sensor =  models.ForeignKey(ControlNode,  on_delete=models.CASCADE)
     timestamp = models.DateTimeField()
-    datatype = models.ForeignKey(ControlNodeType,  on_delete=models.CASCADE)
+    datatype = models.ForeignKey(ControlNodeDataType,  on_delete=models.CASCADE)
     value = models.FloatField()
     
     def __str__(self):

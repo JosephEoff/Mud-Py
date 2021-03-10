@@ -2,7 +2,7 @@ from django.contrib.gis import admin
 from .models import ControlNode
 from .models import Note
 from .models import ControlNodeUnit
-from .models import ControlNodeType
+from .models import ControlNodeDataType
 from .models import ControlNodeData
 from leaflet.admin import LeafletGeoAdmin
 
@@ -16,5 +16,5 @@ class ControlNodeAdmin(LeafletGeoAdmin):
 
 admin.site.register(ControlNode, ControlNodeAdmin)
 admin.site.register(ControlNodeUnit)
-admin.site.register(ControlNodeType)
+admin.site.register(ControlNodeDataType)
 admin.site.register(ControlNodeData)
