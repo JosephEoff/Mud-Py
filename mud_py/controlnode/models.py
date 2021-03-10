@@ -32,7 +32,7 @@ class ControlNodeDataType(models.Model):
         return self.typeName
     
 class ControlNodeData(models.Model):
-    sensor =  models.ForeignKey(ControlNode,  on_delete=models.CASCADE)
+    node =  models.ForeignKey(ControlNode,  on_delete=models.CASCADE)
     timestamp = models.DateTimeField()
     datatype = models.ForeignKey(ControlNodeDataType,  on_delete=models.CASCADE)
     value = models.FloatField()

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
 <!-- eric6 tasks file for project Mud-Py -->
-<!-- Saved: 2021-03-10, 21:39:29 -->
+<!-- Saved: 2021-03-10, 21:55:54 -->
 <Tasks version="6.0">
   <ProjectScanFilter></ProjectScanFilter>
   <Task priority="1" completed="False" type="2" uid="{9092ce8a-e334-45d7-bf96-6d11343bb478}">
