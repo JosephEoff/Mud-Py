@@ -46,7 +46,7 @@ class SensorData(models.Model):
     datatype = models.ForeignKey(SensorDataType,  on_delete=models.CASCADE)
     value = models.FloatField()
     zone = models.ForeignKey('zone.Zone',  on_delete=models.CASCADE, default=None, blank=True, null=True )
-    location = models.PointField(default=None, blank=True, null=True)
+    location= models.ForeignKey(SensorLocation,  on_delete=models.CASCADE,  blank = True,  null = True)
     
     def __str__(self):
         return "Timestamp: " +str(self.timestamp) + " Type:" + str(self.datatype.typeName) + " Value:" + str(self.value) +  str(self.datatype.unit.abbreviatedName)
