@@ -2,6 +2,7 @@ from django.contrib.gis.db import models
 
 class Sensor(models.Model):
     sensorID = models.CharField(max_length = 100)
+    sensorLabel = models.CharField(max_length = 100,  null = True)
     controlnode = models.ForeignKey('controlnode.ControlNode',  related_name='assignedsensors',  on_delete=models.CASCADE,  default=None, blank=True, null=True)
     zone = models.ForeignKey('zone.Zone',  on_delete=models.CASCADE, default=None, blank=True, null=True )
     location = models.PointField(default=None, blank=True, null=True)
@@ -38,6 +39,8 @@ class SensorData(models.Model):
     timestamp = models.DateTimeField()
     datatype = models.ForeignKey(SensorDataType,  on_delete=models.CASCADE)
     value = models.FloatField()
+    zone = models.ForeignKey('zone.Zone',  on_delete=models.CASCADE, default=None, blank=True, null=True )
+    location = models.PointField(default=None, blank=True, null=True)
     
     def __str__(self):
         return "Timestamp: " +str(self.timestamp) + " Type:" + str(self.datatype.typeName) + " Value:" + str(self.value) +  str(self.datatype.unit.abbreviatedName)

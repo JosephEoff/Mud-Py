@@ -15,10 +15,12 @@ class SensorAdmin(LeafletGeoAdmin):
     inlines = [
         NoteInline,
     ]
+    list_display  = ('sensorLabel','sensorID', 'controlnode', 'zone')
 
-
+class SensorDataAdmin(admin.ModelAdmin):    
+    list_display  = ('timestamp', 'sensor', 'zone',  'datatype',  'value')
 
 gisadmin.site.register(Sensor, SensorAdmin)
 admin.site.register(SensorDataUnit)
 admin.site.register(SensorDataType)
-admin.site.register(SensorData)
+admin.site.register(SensorData,  SensorDataAdmin)
