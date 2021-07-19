@@ -15,7 +15,7 @@ class ControlNodeAdmin(LeafletGeoAdmin):
     ]
 
 class ControlNodeDataAdmin(admin.ModelAdmin):
-     list_display  = ('timestamp', 'node',  'datatype',  'value')
+    list_display  = ('timestamp', 'node',  'datatype',  'value')
     
 admin.site.register(ControlNode, ControlNodeAdmin)
 admin.site.register(ControlNodeUnit)
