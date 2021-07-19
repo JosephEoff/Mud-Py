@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project Mud-Py -->
-<!-- Saved: 2021-03-09, 21:26:06 -->
+<!-- Saved: 2021-07-19, 21:58:06 -->
 <!-- Copyright (C) 2021 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
@@ -17,7 +17,6 @@
     <Source>mud_py/controlnode/__init__.py</Source>
     <Source>mud_py/controlnode/admin.py</Source>
     <Source>mud_py/controlnode/apps.py</Source>
-    <Source>mud_py/controlnode/migrations/0001_initial.py</Source>
     <Source>mud_py/controlnode/migrations/__init__.py</Source>
     <Source>mud_py/controlnode/models.py</Source>
     <Source>mud_py/controlnode/tests.py</Source>
@@ -39,7 +38,6 @@
     <Source>mud_py/zone/__init__.py</Source>
     <Source>mud_py/zone/admin.py</Source>
     <Source>mud_py/zone/apps.py</Source>
-    <Source>mud_py/zone/migrations/0001_initial.py</Source>
     <Source>mud_py/zone/migrations/__init__.py</Source>
     <Source>mud_py/zone/models.py</Source>
     <Source>mud_py/zone/tests.py</Source>
