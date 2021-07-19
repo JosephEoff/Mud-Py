@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
 <!-- eric6 tasks file for project Mud-Py -->
-<!-- Saved: 2021-07-19, 21:58:06 -->
+<!-- Saved: 2021-07-19, 22:06:33 -->
 <Tasks version="6.0">
   <ProjectScanFilter></ProjectScanFilter>
-  <Task priority="1" completed="False" type="2" uid="{3b585e85-f368-4cea-a7d1-f68dd2ff9b7f}">
+  <Task priority="1" completed="False" type="2" uid="{738d2ccf-6081-412b-9a57-b81e1a8f45c4}">
     <Summary>WARNING: keep the secret key used in production secret!</Summary>
     <Description></Description>
-    <Created>2021-07-19, 21:50:29</Created>
+    <Created>2021-07-19, 22:06:30</Created>
     <Resource>
       <Filename>mud_py/mud_py/local_settings.py</Filename>
       <Linenumber>2</Linenumber>
     </Resource>
   </Task>
-  <Task priority="1" completed="False" type="2" uid="{67315928-6ee1-48e1-801c-fb7a33e35799}">
+  <Task priority="1" completed="False" type="2" uid="{2ef2a919-0fcc-4f68-89e3-23570160720a}">
     <Summary>WARNING: don't run with debug turned on in production!</Summary>
     <Description></Description>
-    <Created>2021-07-19, 21:50:29</Created>
+    <Created>2021-07-19, 22:06:30</Created>
     <Resource>
       <Filename>mud_py/mud_py/settings.py</Filename>
       <Linenumber>22</Linenumber>

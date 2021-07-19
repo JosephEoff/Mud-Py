@@ -20,4 +20,4 @@ class ControlNodeDataAdmin(admin.ModelAdmin):
 admin.site.register(ControlNode, ControlNodeAdmin)
 admin.site.register(ControlNodeUnit)
 admin.site.register(ControlNodeDataType)
-admin.site.register(ControlNodeData)
+admin.site.register(ControlNodeData,  ControlNodeDataAdmin)
